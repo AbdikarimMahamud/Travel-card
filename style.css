@@ -1,0 +1,39 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Segoe UI";
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b1d33;
+  
+}
+.postcard{
+    padding: 14px;
+    border-radius: 8px;
+    max-width: 460px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+
+}
+.motto{
+    color: #dce1bf;
+    padding: 18px 6px 6px;
+}
+.motto p{
+    text-align: center;
+    font-size: 12px;
+}
+.scene{
+    width: 100%;
+    display: block;
+    padding: 18px ;
+}
